@@ -1,4 +1,4 @@
-# GPUsCode
+# HelloWorld
 
 This repository contains various CUDA programs for exploring and benchmarking GPU programming techniques.
 
