@@ -25,30 +25,34 @@ First, clone the repository to your local machine:
 ```bash
 git clone https://github.com/your-username/GPUsCode.git
 cd GPUsCode
+```
 
 ### 2. Navigate to a Specific Project
 
 Each subfolder contains its own set of files and instructions. For example, to access the HelloWorld project:
-
+```bash
 cd HelloWorld
+```
 
-3. Compile and Run the Code
+### 3. Compile and Run the Code
 
 Each subfolder will have its own instructions for compiling and running the code. For example, in the HelloWorld folder, you might compile and run the code as follows:
 
-    Compile the Code:
+- **Compile the Code:**
+  ```bash
+  nvcc -o helloworld helloworld.cu
+  ```
 
-nvcc -o helloworld helloworld.cu
+- **Run the Compiled Executable:**
+  ```bash
+  ./helloworld
+  ```
 
-Run the Compiled Executable:
-
-    ./helloworld
-
-Contribution
+## Contribution
 
 If you would like to contribute to this repository:
 
-    Fork the repository and create a new branch for your changes.
-    Make your changes and test them thoroughly.
-    Submit a pull request with a detailed description of your changes.
+- Fork the repository and create a new branch for your changes.
+- Make your changes and test them thoroughly.
+- Submit a pull request with a detailed description of your changes.
 
