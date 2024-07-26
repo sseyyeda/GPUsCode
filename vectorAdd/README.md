@@ -1,4 +1,4 @@
-# GPUsCode
+# VECTORADD
 
 Welcome to the `GPUsCode` repository! This repository contains various CUDA programs for GPU programming and examples of vector addition operations. This particular example demonstrates vector addition on both the CPU and GPU and compares their performance.
 
