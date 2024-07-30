@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/hossein/GPU_Programming/colorToGrayConversion/grayscale.cuh
+opencv2/opencv.hpp
+-
+
+/home/hossein/GPU_Programming/colorToGrayConversion/main.cpp
+opencv2/opencv.hpp
+-
+iostream
+-
+chrono
+-
+grayscale.cuh
+/home/hossein/GPU_Programming/colorToGrayConversion/grayscale.cuh
+

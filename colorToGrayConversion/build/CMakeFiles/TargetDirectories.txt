@@ -1,0 +1,3 @@
+/home/hossein/GPU_Programming/colorToGrayConversion/build/CMakeFiles/rebuild_cache.dir
+/home/hossein/GPU_Programming/colorToGrayConversion/build/CMakeFiles/edit_cache.dir
+/home/hossein/GPU_Programming/colorToGrayConversion/build/CMakeFiles/GrayscaleConversion.dir
