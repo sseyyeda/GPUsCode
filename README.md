@@ -2,12 +2,6 @@
 
 Welcome to the `GPUsCode` repository! This repository contains a collection of CUDA programs and examples for exploring various GPU programming techniques. Each subfolder in this repository features different CUDA code, demonstrating various concepts and use cases of GPU programming.
 
-## Repository Structure
-
-The repository is organized into subfolders, each containing a different CUDA project or example. Here is a brief overview of the structure:
-
-- `HelloWorld/`: Contains a simple CUDA program that prints "helloworld" from both the CPU and GPU, and benchmarks their performance.
-
 ## Purpose
 
 The purpose of this repository is to:
@@ -36,17 +30,7 @@ cd HelloWorld
 
 ### 3. Compile and Run the Code
 
-Each subfolder will have its own instructions for compiling and running the code. For example, in the HelloWorld folder, you might compile and run the code as follows:
-
-- **Compile the Code:**
-  ```bash
-  nvcc -o helloworld helloworld.cu
-  ```
-
-- **Run the Compiled Executable:**
-  ```bash
-  ./helloworld
-  ```
+Read README.md file under each directory
 
 ## Contribution
 
