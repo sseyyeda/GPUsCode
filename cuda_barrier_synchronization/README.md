@@ -1,8 +1,3 @@
-The provided CUDA code for barrier synchronization examples focuses on demonstrating the use of `__syncthreads()` and `__syncwarp()`. The timing information for CPU and GPU execution times were from your previous matrix multiplication example and not directly related to the barrier synchronization code example. I will provide an updated `README.md` that correctly reflects the sample output for the barrier synchronization example.
-
-Here is the updated `README.md`:
-
-```markdown
 # CUDA Barrier Synchronization Example
 
 This project demonstrates the use of different barrier synchronization mechanisms in CUDA: `__syncthreads()` and `__syncwarp()`.
