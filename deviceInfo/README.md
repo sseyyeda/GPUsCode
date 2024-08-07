@@ -51,7 +51,7 @@ The program uses several CUDA Runtime APIs to query and retrieve device informat
 - **Total Constant Memory (`prop.totalConstMem`):** The total amount of constant memory available on the device.
 - **Compute Capability (`prop.major` and `prop.minor`):** The major and minor revision numbers defining the compute capability of the device.
 The amount of resources in each CUDA device SM is specified as part of the compute capability of the device. In general, the higher the compute capability level, the more resources are available in each SM. The compute capability of GPUs tends to increase from generation to generation. The Ampere A100 GPU has compute capability 8.0.
-- **Multi-Processor Count (`prop.multiProcessorCount`):** The number of multiprocessors on the device.
+- **Multi-Processor Count (`prop.multiProcessorCount`):** The number of SMs on the device.
 - **Memory Clock Rate (`prop.memoryClockRate`):** The memory clock frequency in kilohertz.
 - **Memory Bus Width (`prop.memoryBusWidth`):** The width of the memory bus in bits.
 - **Peak Memory Bandwidth:** Calculated as `2.0 * prop.memoryClockRate * (prop.memoryBusWidth / 8) / 1.0e6` in gigabytes per second.
