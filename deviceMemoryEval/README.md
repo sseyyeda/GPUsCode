@@ -52,7 +52,7 @@ You can clone this repository to your local machine using the following command:
 
 ```bash
 git clone https://github.com/sseyyeda/GPUsCode.git
-cd deviceMemoryEval/
+cd GPUsCode/deviceMemoryEval/
 ```
 
 ## Compiling the Code
@@ -75,34 +75,5 @@ After compiling, you can run the program with:
 ```
 
 The output will display the kernel execution times for accessing each type of memory. You should observe that accessing shared memory is faster than global memory, and registers are the fastest of all.
-
-## Conclusion
-
-Understanding the different types of memory in CUDA and their access patterns is crucial for optimizing the performance of your CUDA programs. This example provides a basic introduction to these concepts and allows you to compare their performance.
-```
-
-### Instructions
-
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/sseyyeda/GPUsCode.git
-   ```
-
-2. **Navigate to the directory:**
-   ```bash
-   cd GPUsCode
-   ```
-
-3. **Save the code** in a file named `memory_access_time.cu`.
-
-4. **Compile the Code:**
-   ```bash
-   nvcc -o memory_access_time memory_access_time.cu
-   ```
-
-5. **Run the Code:**
-   ```bash
-   ./memory_access_time
-   ```
 
 
