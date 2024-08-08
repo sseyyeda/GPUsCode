@@ -1,4 +1,3 @@
-```markdown
 # CUDA Memory Access Comparison
 
 This repository contains a CUDA program that demonstrates the different types of memory available in CUDA: register, local, shared, global, and constant memory. The program measures and compares the access times for each type of memory to help understand their performance characteristics.
