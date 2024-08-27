@@ -81,35 +81,30 @@ Warp shuffle GPU reduction result: 1661175516 Time: 0.00544538s
 ### Speed-Up Calculations
 
 1. **Naive GPU vs. CPU**:
-   \[
-   \text{Speed-Up}_{\text{Naive}} = \frac{0.10673}{0.00848055} \approx 12.6
-   \]
+   - Speed-Up = CPU Time / Naive GPU Time
+   - Speed-Up = 0.10673 / 0.00848055 ≈ 12.6x
    - The naive GPU reduction is approximately `12.6x` faster than the CPU reduction.
 
 2. **Divergence-Free GPU vs. CPU**:
-   \[
-   \text{Speed-Up}_{\text{Divergence-Free}} = \frac{0.10673}{0.00558506} \approx 19.1
-   \]
+   - Speed-Up = CPU Time / Divergence-Free GPU Time
+   - Speed-Up = 0.10673 / 0.00558506 ≈ 19.1x
    - The divergence-free GPU reduction is approximately `19.1x` faster than the CPU reduction.
 
 3. **Warp Shuffle GPU vs. CPU**:
-   \[
-   \text{Speed-Up}_{\text{Warp Shuffle}} = \frac{0.10673}{0.00544538} \approx 19.6
-   \]
+   - Speed-Up = CPU Time / Warp Shuffle GPU Time
+   - Speed-Up = 0.10673 / 0.00544538 ≈ 19.6x
    - The warp shuffle GPU reduction is approximately `19.6x` faster than the CPU reduction.
 
 ### Relative Performance of GPU Techniques
 
 1. **Divergence-Free GPU vs. Naive GPU**:
-   \[
-   \text{Speed-Up}_{\text{Divergence-Free vs. Naive}} = \frac{0.00848055}{0.00558506} \approx 1.5
-   \]
+   - Speed-Up = Naive GPU Time / Divergence-Free GPU Time
+   - Speed-Up = 0.00848055 / 0.00558506 ≈ 1.5x
    - The divergence-free GPU reduction is about `1.5x` faster than the naive GPU reduction.
 
 2. **Warp Shuffle GPU vs. Divergence-Free GPU**:
-   \[
-   \text{Speed-Up}_{\text{Warp Shuffle vs. Divergence-Free}} = \frac{0.00558506}{0.00544538} \approx 1.03
-   \]
+   - Speed-Up = Divergence-Free GPU Time / Warp Shuffle GPU Time
+   - Speed-Up = 0.00558506 / 0.00544538 ≈ 1.03x
    - The warp shuffle GPU reduction is slightly faster than the divergence-free GPU reduction, approximately `3%` faster.
 
 ## Conclusion
@@ -118,5 +113,3 @@ Warp shuffle GPU reduction result: 1661175516 Time: 0.00544538s
 - **Second Fastest**: Divergence-Free GPU reduction (`0.00558506s`, approximately `19.1x` faster than CPU, `1.5x` faster than Naive GPU).
 - **Third Fastest**: Naive GPU reduction (`0.00848055s`, approximately `12.6x` faster than CPU).
 - **Slowest Method**: CPU reduction (`0.10673s`).
-
-
