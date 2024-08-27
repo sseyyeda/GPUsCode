@@ -1,4 +1,3 @@
-```markdown
 # GPU Reduction Techniques
 
 This repository contains CUDA code that implements and compares different reduction techniques for summing up array elements on both CPU and GPU. The techniques included are:
